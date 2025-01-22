@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LearnOnline - Your Learning Hub</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Learn Online</h1>
+      <nav>
+        <ul>
+          <li><a href="lessons">Lessons</a></li>
+          <li><a href="quizzes">Quizzes</a></li>
+          <li><a href="progress">Progress</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="lessons">
+    <h2>Techical Learning</h2>
+    <p>watch and learn the content for techical interview</p>
+    <div class="video-container">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/eBUWqcuu58c" allowfullscreen></iframe>
+      </div>
+      
+      
+      <p>Lesson 1: Introduction to Learning</p>
+    </div>
+  </section>
+
+  <section id="quizzes">
+    <h2>Interactive Quizzes</h2>
+    <p>Test your knowledge with our quizzes!</p>
+    <button id="start-quiz">Start Quiz</button>
+  </section>
+  <section id="progress">
+    <h2>Your Progress</h2>
+    <p>Track your learning journey here:</p>
+    <div id="progress-tracker">
+
+    </div>
+  </section>
+
+  
+  <script src="quiz.js"></script>
+</body>
+</html>
