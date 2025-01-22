@@ -19,4 +19,8 @@ An online learning platform developed using HTML, CSS, and Bootstrap is a robust
 
 OUTPUT:
 
+![Image](https://github.com/user-attachments/assets/9c19d04f-2f91-4c3f-b3f6-139f4b460566)
+
+![Image](https://github.com/user-attachments/assets/8465119f-0d93-46e1-aed1-6243217bc9c8)
+
 
